@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form" id="formAdd">
+        <h1>Add User</h1>
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">            
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="address">Address: </label>
+            <input type="text" name="Address" id="Address">             
+        </div>
+        <div>
+            <label for="contact">Contact No: </label>
+            <input type="text" name="contact" id="contact">
+        </div>
+        <button>Create User</button>
+    </form>
+    <form class="form" id="formUpdate">
+        <h1>Update User</h1>
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">            
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="address">Address: </label>
+            <input type="text" name="Address" id="Address">             
+        </div>
+        <div>
+            <label for="contact">Contact No: </label>
+            <input type="text" name="contact" id="contact">
+        </div>
+        <div>
+            <label for="id">Id: </label>
+            <input type="number" name="id" id="id">
+        </div>
+        <button>Update User</button>
+    </form>
+    <form class="form" id="formDelete">
+        <h1>Delete User Or Users</h1>
+        <div>
+            <label for="id">Id: </label>
+            <input type="number" name="id" id="id">
+        </div>
+        <button>Delete User Or Users</button>
+    </form>
+    <form class="form" id="formGet">
+        <h1>Get User Or Users</h1>
+        <div>
+            <label for="id">Id: </label>
+            <input type="number" name="id" id="id"> 
+        </div>
+        <button>Get User Or Users</button>
+    </form>
+    <table class="table" id="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>ADDRESS</th>
+                <th>CONTACT</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="server.mjs"></script>
+</body>
+</html>
